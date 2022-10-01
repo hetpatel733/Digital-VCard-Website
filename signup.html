@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<div class="container-fluid navbg sticky-top">
+	<div class="container">
+		<nav class="navbar navbar-expand-md navbar-dark">
+		  <!-- Brand -->
+		  <img src="images/finallogo.png" height="40px;">
+		  <!-- Toggler/collapsibe Button -->
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <!-- Navbar links -->
+		  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+		    <ul class="navbar-nav">
+		      <li class="nav-item">
+		        <a class="nav-link navpad" href="home.html">Digital V-Card</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link navpad" href="features.html">V-Card Features</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link navpad" href="sample.html">Sample V-Cards</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link navpad" href="contact.html">Contact</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link navpad" href="signin.html">Sing IN</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link navpad" href="signup.html">Sign UP</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>	
+</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					
+				</div>
+				<div class="col-sm-8 frmsgnup bckclrfrm">
+					<h1>Sing UP</h1>
+					<form class="needs-validation" action="http://localhost:8080/vcard/signup.php"method="post" novalidate>
+					  	<div class="row">
+					   	 	<div class="col">
+					    	<label for="fname" class="mr-sm-2">First name:</label>
+					      	<input type="text" class="form-control" id="fname" placeholder="Enter first name" name="fname" required>
+					      		<div class="valid-feedback">Valid.</div>
+    							<div class="invalid-feedback">Please fill out this field.</div>
+					    	</div>
+							<div class="col">
+					    	<label for="lname" class="mr-sm-2">Last name:</label>
+					      	<input type="text" class="form-control" id="lname" placeholder="Enter last name" name="lname" required>
+					      		<div class="valid-feedback">Valid.</div>
+    							<div class="invalid-feedback">Please fill out this field.</div>
+					    	</div>
+						</div>
+
+						<div class="row">
+							<div class="col">
+					    	<label for="uname" class="mr-sm-2">User name:</label>
+					      	<input type="text" class="form-control" id="uname" placeholder="Enter user name" name="uname" required>
+								<div class="valid-feedback">Valid.</div>
+    							<div class="invalid-feedback">Please fill out this field.</div>
+					    	</div>
+					    	<div class="col">
+					    	<label for="email" class="mr-sm-2">Email address:</label>
+					      	<input type="email" class="form-control" placeholder="Enter Email" name="email" required>
+								<div class="valid-feedback">Valid.</div>
+    							<div class="invalid-feedback">Please fill out this field.</div>
+
+					    	</div>
+					    </div>
+
+					    <div class="row">
+							<div class="col">
+					    	<label for="password" class="mr-sm-2">Password:</label>
+					      	<input type="password" class="form-control" id="password" placeholder="Enter password" name="password" required>
+								<div class="valid-feedback">Valid.</div>
+    							<div class="invalid-feedback">Please fill out this field.</div>
+					    	</div>
+					    	<div class="col">
+					    	<label for="confirmpassword" class="mr-sm-2">Confirm Password:</label>
+					      	<input type="password" class="form-control" placeholder="Enter Confirm Password" name="cpassword" required>
+								<div class="valid-feedback">Valid.</div>
+    							<div class="invalid-feedback">Please fill out this field.</div>
+					    	</div>
+					    </div>
+
+					    <div class="row">
+							<div class="col">
+					    	<label for="Caddress" class="mr-sm-2">Current Address:</label>
+							<textarea class="form-control" rows="2" id="caddress" placeholder="Enter Current Address" name="caddress" required></textarea>
+					      		<div class="valid-feedback">Valid.</div>
+    							<div class="invalid-feedback">Please fill out this field.</div>
+							</div>
+							<div class="col">
+					    	<label for="paddress" class="mr-sm-2">Permanent Address:</label>
+							<textarea class="form-control" rows="2" id="paddress" placeholder="Enter Permanent Address" name="paddress" required></textarea>
+					      		<div class="valid-feedback">Valid.</div>
+    							<div class="invalid-feedback">Please fill out this field.</div>
+							</div>
+					    </div>
+
+					    <div class="row">
+							<div class="col">
+					    	<div class="form-group">
+						  	<label for="gender">Select gender:</label>
+						  	<select class="form-control" id="sel1" name="gender">
+						  	<option>Select gender</option>
+						    <option value="Male" name="gender">Male</option>
+						    <option value="Female" name="gender">Female</option>
+						    <option value="Others" name="gender">Others</option>
+						   	</select>
+							</div>
+							</div>
+							<div class="col">
+					    	<div class="form-group">
+						  	<label for="city">Select city:</label>
+						  	<select class="form-control" id="sel2" name="city">
+						  	<option>Select city</option>
+							<option value="Ahmedabad" name="city">Ahmedabad</option>
+						    <option value="Gandhinagar" name="city">Gandhinagar</option>
+						    <option value="Surat" name="city">Surat</option>
+						    <option value="Baroda" name="city">Baroda</option>
+						    <option value="Rajkot" name="city">Rajkot</option>
+						   	</select>
+							</div>
+							</div>
+						</div>
+					  
+					  <div class="row">
+					   	 	<div class="col">
+					    	<label for="cnumber" class="mr-sm-2">Contact No:</label>
+					      	<input type="text" class="form-control" id="cnumber" placeholder="Enter contact number" name="cnumber" required>
+								<div class="valid-feedback">Valid.</div>
+    							<div class="invalid-feedback">Please fill out this field.</div>
+					    	</div>
+							<div class="col">
+					    	<label for="pincode" class="mr-sm-2">Pincode:</label>
+					      	<input type="text" class="form-control" id="pincode" placeholder="Enter pincode" name="pincode" required>
+					      		<div class="valid-feedback">Valid.</div>
+    							<div class="invalid-feedback">Please fill out this field.</div>
+					    	</div>
+						</div>
+						<div class="btn">
+							<button type="submit" class="btn btn-primary sbmtbtn">Submit</button>
+						</div>
+					</form>
+					<script>
+						// Disable form submissions if there are invalid fields
+						(function() {
+						  'use strict';
+						  window.addEventListener('load', function() {
+						    // Get the forms we want to add validation styles to
+						    var forms = document.getElementsByClassName('needs-validation');
+						    // Loop over them and prevent submission
+						    var validation = Array.prototype.filter.call(forms, function(form) {
+						      form.addEventListener('submit', function(event) {
+						        if (form.checkValidity() === false) {
+						          event.preventDefault();
+						          event.stopPropagation();
+						        }
+						        form.classList.add('was-validated');
+						      }, false);
+						    });
+						  }, false);
+						})();
+					</script>					 
+				</div>
+			</div>
+		</div>
+</body>
+</html>
