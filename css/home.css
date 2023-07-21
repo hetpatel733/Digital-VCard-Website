@@ -1,0 +1,321 @@
+.row{
+	padding: 5%;
+}
+.workinggridcontent{
+	background-color: rgba(255,255,255,0.33);
+	padding: 50px;
+	font-size: 30px;
+	text-align: center;
+	font-size: 1rem;
+	margin: auto;
+	width: 100%;
+	border-radius: 8px;
+	display: block;
+}
+.workinggridcontainer{
+	display: grid;
+	height: auto;
+	grid-template-columns: auto auto auto;
+	background-color: transparent;
+	padding: 10px;
+	column-gap: 2%;
+	row-gap: 4%;
+	margin:2%;
+	margin-bottom: 6%; 
+	/* overflow:scroll; */
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.featuregridcontainer{
+	display: grid;
+	height: auto;
+	grid-template-columns: auto auto auto;
+	background-color: transparent;
+	padding: 10px;
+	column-gap: 2%;
+	row-gap: 4%;
+	margin:2%;
+	margin-bottom: 6%; 
+	/* overflow:scroll; */
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.featuregridcontent{
+	background-color: rgba(176, 176, 160, 0.712);
+	padding: 30px;
+	font-size: 30px;
+	text-align: center;
+	font-size: 1rem;
+	margin: auto;
+	width: 80%;
+	border-radius: 10px;
+	display: block;
+}
+.center
+{
+	margin: auto;
+    text-align:center;
+}
+.centerimg
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbg{
+	background-color: black;
+}
+.navpad
+{
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	font-weight: bold;
+	border-radius: 20px;
+}
+.navpad:hover
+{
+	color:  #ffffff !important;
+	background-color: rgb(44, 42, 42)
+}
+
+.navbar-brand
+{
+	color:     #ffff00 !important;
+	font-weight: bold;
+}
+.navbar-brand span
+{
+	color:  #ff0066;
+	font-weight: bold;
+	font-size: 30px !important;
+}
+.col-sm-6 img
+{
+	height: 500px;
+	width: 100%;
+}
+
+.col-sm-6
+{
+	margin-top: 20px !important;
+}
+.col-sm-6 h2
+{
+	color:   #ff0000;
+	padding-top: 20px;
+}
+.col-sm-6 h1
+{
+	padding-top: 30px;
+}
+.col-sm-6 p
+{
+	padding-top: 20px;
+}
+.btn-color
+{
+	background-color:   #ff0000 !important;
+}
+.frmdsgn
+{
+	margin-top: 5%;
+	box-shadow: 0px 0px 10px black;
+	padding: 15px;
+}
+.signup
+{
+	font-size: 14px;
+	float: right;
+}
+
+.frmsgnup
+{
+	margin-top: 5%;
+	box-shadow: 0px 0px 10px black;
+	padding: 15px;
+}
+.btn
+{
+	margin-top: 10px;
+}
+.bckbanner
+{
+	background-image: url(../images/New-Banner5.jpg);
+	background-size: cover;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	padding-bottom: 1.5em;
+	padding-top: 0.2em;
+}
+.bckbanner h6
+{
+	color:  #ff0000 !important;
+	font-size: 25px;
+	padding-top: 50px; 
+}
+.bckbanner h1
+{
+	color: white;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.bckclr
+{
+	background-color: rgba(255,255,255,0.33);
+	margin: 15px;
+	margin-top: 50px;
+
+}
+.fa
+{
+	font-size: 50px !important;
+}
+.ftrs h6
+{
+
+	color: #ff0000 !important;
+	font-size: 25px;
+	padding-top: 50px; 
+
+}
+.ftrs h1
+{
+
+	font-weight: bold;
+	padding-top: 10px;
+}
+.ftr
+{
+	margin-top: 50px;
+	background-color: rgba(43,93,13,0.09);
+}
+
+.futer
+{
+	margin-top: 40px;
+	background-color: black;
+	width: 100%;
+
+}
+.futer-brand
+{
+	color: #ffff00 !important;
+	font-weight: bold;
+	font-size: 20px;
+}
+.futer-brand span
+{
+	color:  #ff0000;
+	font-weight: bold;
+	font-size: 40px !important;
+}
+.futer h4
+{
+	color: white;
+	padding-left: 30px;
+}
+.futer h6
+{
+	color: grey;
+	padding-left: 30px;
+}
+.futer p
+{
+	color:  #cccccc;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+.eml
+{
+	color:  #cccccc;
+	padding-left: 30px;
+}
+.smp h1
+{
+	margin-top: 50px;
+	text-align: center;
+	color: #ff0000;
+	font-weight: bold;
+}
+.smp h4
+{
+	margin-top: 20px;
+	color: black;
+	text-align: center;
+}
+.smplpic img
+{
+	width: 70%;
+	margin-top: 30px;
+	height: 450px;
+}
+
+.featrpic img
+{
+	margin-top: 20px;
+	margin-left: 10px;
+	height: 470px;
+}
+
+.mdaftr
+{
+	margin-top: 20px;
+	text-align: right;
+}
+.mdaftr p
+{
+	font-size: 13px;
+}
+.mdaftl
+{
+	margin-top: 20px;
+	text-align: left;
+}
+.mdaftl p
+{
+	font-size: 13px;
+}
+
+.iconclr
+{
+	color: #ff0000;
+}
+.sbmtbtn
+{
+	background-color: #ff0000 !important;
+}
+.cntct
+{
+	background-color: #ff0000 !important;
+}
+.bckclrfrm
+{
+	background-color: rgba(43,93,13,0.09);
+}
+
+/*media queries*/
+
+@media (max-width: 1189px) {
+	.featuregridcontainer{
+		margin-bottom: 200px;
+		margin-right:20px; 
+	}
+}
+@media (max-width: 901px) {
+	.featuregridcontainer{
+		margin-top: 20px;
+		margin-bottom: 180px;
+	}
+	.featuregridcontent{
+		width: 300px;
+	}
+}
+@media (max-width:800px){
+	.featuregridcontainer{
+		margin-bottom: 200px;
+		gap: 1%;
+	}
+}
+@media (max-width:500px){
+	.workinggridcontent{
+		margin-bottom: 30px;
+	}
+}
